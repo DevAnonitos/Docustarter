@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Clone repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 👈 Quan trọng: clone full để push lên GitLab
 
       - name: Push to GitLab
         run: |
