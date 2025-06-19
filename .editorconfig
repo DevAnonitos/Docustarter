@@ -1,0 +1,26 @@
+root = true
+
+# Top-most EditorConfig file. This file is used to define coding styles for various file types in the project.
+[*]
+charset = utf-8
+indent_size = 2
+end_of_line = lf
+indent_style = space
+max_line_length = 80
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Specific settings for different file types
+[*.{js,ts,jsx,tsx,json,yml,yaml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{html,css,scss,sass}]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[*.{sh,bat}]
+indent_size = 2
+end_of_line = crlf

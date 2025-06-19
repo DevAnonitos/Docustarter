@@ -1,0 +1,22 @@
+name: Mirror to Bitbucket
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout full repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Push to Bitbucket
+        run: |
+          git config --global user.name "GitHub Mirror Bot"
+          git config --global user.email "mirror@github.actions"
+          git remote add bitbucket https://${{ secrets.BB_USER }}:${{ secrets.BB_PASS }}@bitbucket.org/YOUR_USERNAME/YOUR_REPO.git
+          git push bitbucket main --force
