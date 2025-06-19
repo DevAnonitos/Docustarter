@@ -5,6 +5,10 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "workspaces": [
+    "packages/*",
+    "websites/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
