@@ -18,6 +18,7 @@
     pkgs.wget
     pkgs.curl
     pkgs.cmake
+    pkgs.yamlfmt
     pkgs.openssl
 
     pkgs.go
@@ -38,6 +39,7 @@
 
     pkgs.docker
     pkgs.docker-ls
+    pkgs.docker-buildx
     pkgs.docker-client
     pkgs.docker-compose
   ];

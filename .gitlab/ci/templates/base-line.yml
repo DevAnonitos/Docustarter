@@ -1,0 +1,3 @@
+.base-line:
+  rule:
+    - if: $CI_PIPELINE_SOURCE == "parent_pipeline"

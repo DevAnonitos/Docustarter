@@ -4,16 +4,35 @@
   "license": "MIT",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
-  "workspaces": [
-    "packages/*",
-    "websites/*"
+  "author": "Docustarter",
+  "keywords": [
+    "docs", "next.js", "react.js"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DevAnonitos/Docustarter.git"
+    "url": "https://github.com/devanonitos/docustarter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devanonitos/docustarter/issues"
+  },
+  "workspaces": [
+    "websites",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.2",
+    "jest-environment-jsdom": "^30.0.2",
+    "ts-node": "^10.9.2"
   }
 }
