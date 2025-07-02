@@ -1,0 +1,13 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/devanonitos/docustarter/discussions
+    about: Please ask questions or share ideas here instead of creating an issue.
+
+  - name:  📝 Bug Reports
+    url: https://github.com/devanonitos/docustarter/issues
+    about: Use this for reproducible bugs or feature requests.
+
+  - name: 🛡️ Security Issues
+    url: https://github.com/devanonitos/docustarter/security/policy
+    about: Please report security vulnerabilities here.

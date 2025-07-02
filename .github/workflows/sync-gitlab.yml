@@ -1,4 +1,4 @@
-name: Mirror to GitLab
+name: Sync to GitLab
 permissions:
   contents: read
   pull-requests: write
@@ -6,6 +6,10 @@ permissions:
 on:
   push:
     branches: [main]
+    paths:
+      - "**"
+
+  workflow_dispatch:
 
 jobs:
   mirror:
@@ -21,4 +25,4 @@ jobs:
           git config --global user.name "GitHub Mirror Bot"
           git config --global user.email "mirror@github.actions"
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/devanonitos/docustarter.git
-          git push gitlab main --force
+          git push gitlab main --force || echo "⚠️ Mirror to GitLab failed, please check token or network."
