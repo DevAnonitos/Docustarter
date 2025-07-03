@@ -2,6 +2,7 @@ name: 💡 Share an Idea
 description: Share your idea to improve Docustarter and discuss with the community.
 title: "[Idea]: "
 labels: ["💡 idea", "discussion"]
+
 body:
   - type: markdown
     attributes:

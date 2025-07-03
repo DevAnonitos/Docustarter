@@ -6,7 +6,9 @@
   "description": "",
   "author": "Docustarter",
   "keywords": [
-    "docs", "next.js", "react.js"
+    "docs",
+    "next.js",
+    "react.js"
   ],
   "repository": {
     "type": "git",
@@ -31,8 +33,10 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@types/jest": "^30.0.0",
+    "husky": "9.1.7",
     "jest": "^30.0.3",
     "jest-environment-jsdom": "^30.0.2",
+    "lint-staged": "16.1.2",
     "ts-node": "^10.9.2"
   }
 }

@@ -1,0 +1,47 @@
+name: "Question"
+description: "Ask a question about this project"
+title: "[Question]: "
+labels: [question]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in this project! Please provide as much detail as possible so we can assist you.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details (optional)
+      description: How can we reach you if we need more info?
+      placeholder: your-email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your question?
+      description: Please describe your question clearly and concisely.
+      placeholder: "I would like to know how to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about your question here.
+      placeholder: "I am using version X, on OS Y, etc."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched the existing issues and discussions.
+          required: true
+        - label: I have read the documentation.
+          required: true
