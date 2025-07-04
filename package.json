@@ -21,22 +21,35 @@
     "websites",
     "packages/*"
   ],
-  "engines": {
-    "node": ">=20",
-    "pnpm": ">=8"
-  },
   "scripts": {
-    "test": "jest"
+    "dev": "",
+    "test": "jest",
+    "build": "",
+    "test-e2e": "",
+    "test-unit": "",
+    "test-integration": "",
+    "lint": ""
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.7",
+    "eslint": "^9.30.0",
+    "eslint-plugin-eslint-plugin": "6.5.0",
     "husky": "9.1.7",
     "jest": "^30.0.3",
     "jest-environment-jsdom": "^30.0.2",
     "lint-staged": "16.1.2",
-    "ts-node": "^10.9.2"
-  }
+    "prettier": "3.6.2",
+    "ts-node": "^10.9.2",
+    "tsx": "4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@10.12.2"
 }

@@ -5,6 +5,7 @@ Thank you for your interest in contributing to Docustarter! We welcome all contr
 ## How to Contribute
 
 ### 1. Fork the Repository
+
 Click the **Fork** button at the top right of this repository and clone your fork locally.
 
 ```bash
@@ -13,6 +14,7 @@ cd Docustarter
 ```
 
 ### 2. Create a Branch
+
 Create a new branch for your feature or bugfix.
 
 ```bash
@@ -20,9 +22,11 @@ git checkout -b feature/your-feature-name
 ```
 
 ### 3. Make Changes
+
 Make your changes, following our [Code of Conduct](CODE_OF_CONDUCT.md) and [coding guidelines](#coding-guidelines).
 
 ### 4. Test Your Changes
+
 Ensure all tests pass and your code does not break existing functionality.
 
 ```bash
@@ -31,6 +35,7 @@ npm test
 ```
 
 ### 5. Commit and Push
+
 Write clear, concise commit messages.
 
 ```bash
@@ -40,6 +45,7 @@ git push origin feature/your-feature-name
 ```
 
 ### 6. Open a Pull Request
+
 Go to the repository on GitHub and open a Pull Request (PR) from your branch. Fill out the PR template and describe your changes.
 
 ## Coding Guidelines

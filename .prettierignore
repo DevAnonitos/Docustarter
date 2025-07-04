@@ -1,0 +1,12 @@
+.next/
+.turbo/
+_next/
+__tmp__/
+dist/
+target/
+compiled/
+
+# pnpm lock file
+pnpm-lock.yaml
+
+

@@ -4,3 +4,4 @@ node_modules
 **/.next/**
 **/_next/**
 **/.vscode/**
+**/__tmp__/**

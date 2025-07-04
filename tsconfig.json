@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "strict": false,
+    "allowJs": true,
+    "module": "esnext",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "tests/**/*.ts",
+    "tests/**/*.js",
+    "tests/**/*.tsx",
+    "tests/**/*.jsx"
+  ],
+}

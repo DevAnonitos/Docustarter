@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/devanonitos/docustarter/discussions
     about: Please ask questions or share ideas here instead of creating an issue.
 
-  - name:  📝 Bug Reports
+  - name: 📝 Bug Reports
     url: https://github.com/devanonitos/docustarter/issues
     about: Use this for reproducible bugs or feature requests.
 
