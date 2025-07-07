@@ -6,4 +6,4 @@ module.exports = {
   '*.{json,css,scss,html,yaml,md }': [
     'prettier --with-node-modules --ignore-path .prettierignore --write',
   ],
-}
+};
