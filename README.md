@@ -1,9 +1,9 @@
 # Docustarter
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/your-org/Docustarter/pulls)
-[![Issues](https://img.shields.io/github/issues/your-org/Docustarter.svg?color=orange)](https://github.com/your-org/Docustarter/issues)
-[![Stars](https://img.shields.io/github/stars/your-org/Docustarter?style=social)](https://github.com/your-org/Docustarter)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/DevAnonitos/Docustarter/pulls)
+[![Issues](https://img.shields.io/github/issues/DevAnonitos/Docustarter.svg?color=orange)](https://github.com/DevAnonitos/Docustarter/issues)
+[![Stars](https://img.shields.io/github/stars/DevAnonitos/Docustarter?style=social)](https://github.com/DevAnonitos/Docustarter)
 
 > **Docustarter** is a professional open-source template to kickstart your documentation projects with ease and style.
 
