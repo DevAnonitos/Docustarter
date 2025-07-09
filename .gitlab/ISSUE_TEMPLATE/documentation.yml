@@ -1,0 +1,57 @@
+name: Documentation Issue
+description: Report an issue or suggest an improvement for the project documentation.
+title: "[Docs]: "
+labels: [documentation]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve our documentation! Please fill out the form below.
+
+  - type: dropdown
+    id: doc-type
+    attributes:
+      label: Documentation Type
+      description: What type of documentation does this issue relate to?
+      options:
+        - User Guide
+        - API Reference
+        - Tutorials
+        - README
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Where is the documentation issue? (e.g., file name, section, URL)
+      placeholder: "e.g., docs/getting-started.md, Section: Installation"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the issue or suggestion in detail.
+      placeholder: "Describe the problem or improvement..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Fix or Improvement
+      description: If you have a suggestion for how to fix or improve the documentation, please provide it here.
+      placeholder: "Propose your changes or improvements..."
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues to avoid duplicates.
+        - label: I have provided sufficient information for the maintainers to understand the issue.

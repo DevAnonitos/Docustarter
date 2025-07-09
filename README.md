@@ -44,19 +44,48 @@
   </p>
 </div>
 
-## Introduction
+## 📄 Introduction
 
-## Table of contents
+## 🗂️ Table of contents
 
-## Getting Started
+## 🌟 Features
 
-## Community
+## 🚀 Getting Started
 
-## Contributing
+## 📚 Documentation
 
-## Security
+## 🗂️ Project Layout
 
-## License
+## 💬 Community
+
+## 🤝 Contributing
+
+We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## 🌟 Contributors
+
+A huge thank you to these amazing people for their contributions, time, and effort! ❤️
+
+[![Contributors](https://contrib.rocks/image?repo=DevAnonitos/Docustarter)](https://github.com/DevAnonitos/Docustarter/graphs/contributors)
+
+<p align="center">
+  <a href="https://github.com/DevAnonitos/Docustarter/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/DevAnonitos/Docustarter?color=blue&style=for-the-badge&logo=github" alt="GitHub contributors">
+  </a>
+  <a href="https://github.com/DevAnonitos/Docustarter/commits/main">
+    <img src="https://img.shields.io/github/last-commit/DevAnonitos/Docustarter?style=for-the-badge&logo=git" alt="Last Commit">
+  </a>
+  <a href="https://github.com/DevAnonitos/Docustarter/commits/main">
+    <img src="https://img.shields.io/github/commit-activity/m/DevAnonitos/Docustarter?style=for-the-badge&logo=github" alt="Commit Activity">
+  </a>
+</p>
+
+We’re excited to see your contributions and welcome you to the growing **Docustarter** community!
+
+## 🔒 Security
+
+## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
 
+<!-- --- -->

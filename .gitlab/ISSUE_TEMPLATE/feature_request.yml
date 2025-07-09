@@ -1,0 +1,52 @@
+name: ✨ Feature Request
+description: Suggest an idea to improve Docustarter.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙏 **Thank you for helping improve Docustarter!**
+
+        Please fill out the form below to describe your feature request clearly for maintainers and contributors.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of the feature you want to request.
+      placeholder: |
+        Describe what the feature should do and how it would improve Docustarter.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case / Motivation
+      description: Explain why this feature would be useful.
+      placeholder: |
+        Why is this feature needed? What problem does it solve? How will it improve workflows for Docustarter users?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered alternative solutions or workarounds?
+      placeholder: |
+        Share any alternative approaches you have considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots to help explain your request.
+      placeholder: |
+        Add context, relevant code snippets, or screenshots if needed.
+    validations:
+      required: false

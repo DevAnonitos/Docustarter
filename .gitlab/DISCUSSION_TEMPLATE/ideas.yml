@@ -1,0 +1,52 @@
+name: 💡 Share an Idea
+description: Share your idea to improve Docustarter and discuss with the community.
+title: "[Idea]: "
+labels: ["💡 idea", "discussion"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙌 **Thank you for sharing your idea to improve Docustarter!**
+
+        Please describe your idea clearly so the community and maintainers can discuss and refine it.
+
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: Describe your idea
+      description: Clearly describe your idea and what it would help improve in Docustarter.
+      placeholder: |
+        Describe what your idea is, why it is helpful, and how it could improve user experience or functionality.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why do you think this idea is important?
+      placeholder: |
+        Explain the pain points, user needs, or problems your idea would address.
+    validations:
+      required: false
+
+  - type: textarea
+    id: potential-implementation
+    attributes:
+      label: Potential implementation (optional)
+      description: Share how you think this idea could be implemented, if you have any thoughts.
+      placeholder: |
+        Describe potential approaches or examples of how this idea could be realized within Docustarter.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context, mockups, or related issues that can help discuss your idea.
+      placeholder: |
+        Attach sketches, links, or references that would help explain your idea.
+    validations:
+      required: false

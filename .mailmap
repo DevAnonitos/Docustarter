@@ -1,0 +1,15 @@
+# Example .mailmap file
+# Format: Proper Name <proper.email@example.com> <alias.email@example.com>
+# This helps unify author identities in git history.
+
+# Simple email alias
+John Doe <john.doe@example.com> <johnd@example.com>
+
+# Name correction
+Jane Smith <jane.smith@example.com> <Jane S. <jsmith@example.com>>
+
+# Multiple aliases for one person
+Alice Cooper <alice.cooper@example.com> <acooper@example.com>
+Alice Cooper <alice.cooper@example.com> <alicec@oldmail.com>
+
+# Comment lines start with #

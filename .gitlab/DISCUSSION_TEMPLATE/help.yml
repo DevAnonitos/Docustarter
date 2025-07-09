@@ -1,0 +1,65 @@
+name: "💡 Help Request"
+description: "Need help using this project? Ask your question here."
+labels: [help wanted, question]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙋 Need Help?
+        Please provide as much detail as possible so the community can assist you effectively.
+
+  - type: input
+    id: summary
+    attributes:
+      label: "Short Summary"
+      description: "Briefly describe your issue or question."
+      placeholder: "How do I...?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Detailed Description"
+      description: "Explain your problem or question in detail. Include what you have tried and any relevant context."
+      placeholder: |
+        - What are you trying to achieve?
+        - What have you tried so far?
+        - Any error messages or screenshots?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Provide details about your setup (OS, version, etc.)."
+      placeholder: |
+        - OS: (e.g., Windows 11, macOS Ventura)
+        - Project version: (e.g., v1.2.3)
+        - Node/Python/Other runtime version: (if applicable)
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Steps to Reproduce"
+      description: "If applicable, provide steps to reproduce your issue."
+      placeholder: |
+        1. Go to '...'
+        2. Run '...'
+        3. See error '...'
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I have searched the [documentation](../README.md) and [issues](../issues) for answers."
+          required: true
+        - label: "This is not a bug report or feature request."
+          required: true
