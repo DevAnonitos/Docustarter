@@ -21,7 +21,7 @@
 
   <p align="center">
     <a href="https://github.com/DevAnonitos/Docustarter/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/DevAnonitos/Docustarter/ci-node.yml?label=Docustarter CI&logo=github&style=flat-square" alt="Build Status">
+      <img src="https://img.shields.io/github/actions/workflow/status/DevAnonitos/Docustarter/ci-node.yml?label=building&logo=github&style=flat-square" alt="Build Status">
     </a>
     <a href="https://www.npmjs.com/package/docustarter">
       <img src="https://img.shields.io/npm/v/docustarter?label=Npm&color=blue&logo=npm&style=flat-square" alt="npm version">
