@@ -13,6 +13,6 @@
     "tests/**/*.ts",
     "tests/**/*.js",
     "tests/**/*.tsx",
-    "tests/**/*.jsx"
+    "tests/**/*.jsx",
   ],
 }
